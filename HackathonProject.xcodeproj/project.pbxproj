@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611A51102879D7C600AA6B77 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A510F2879D7C600AA6B77 /* Provider.swift */; };
+		611A51132879D7F900AA6B77 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A51122879D7F900AA6B77 /* HttpMethod.swift */; };
+		611A51152879D87300AA6B77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A51142879D87300AA6B77 /* Constants.swift */; };
+		611A51252879E87C00AA6B77 /* WalletDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A51242879E87C00AA6B77 /* WalletDefaults.swift */; };
+		6136D88A2882B954005C928F /* ExportTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8892882B954005C928F /* ExportTypeModel.swift */; };
+		6136D8902882E3BB005C928F /* KeyStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D88F2882E3BB005C928F /* KeyStorageManager.swift */; };
+		6136D897288302FD005C928F /* MetadataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D896288302FD005C928F /* MetadataModel.swift */; };
+		6136D8A22885BCDB005C928F /* TokenDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8A12885BCDB005C928F /* TokenDataModel.swift */; };
+		6136D8A72885BECB005C928F /* TokenBalanceCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8A62885BECB005C928F /* TokenBalanceCellModel.swift */; };
+		6136D8AA2885C733005C928F /* TokenBalancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8A92885C733005C928F /* TokenBalancePresenter.swift */; };
+		6136D8AC2885C752005C928F /* TokenBalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8AB2885C752005C928F /* TokenBalanceController.swift */; };
+		6136D8AF2885C806005C928F /* TokenBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8AE2885C806005C928F /* TokenBalanceCell.swift */; };
+		6136D8B22885CF7A005C928F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8B12885CF7A005C928F /* Reusable.swift */; };
+		6136D8B52885E37B005C928F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8B42885E37B005C928F /* TabBarController.swift */; };
+		6136D8BC288731CD005C928F /* NFTBalancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8BB288731CD005C928F /* NFTBalancePresenter.swift */; };
+		6136D8BE288731D8005C928F /* NFTBalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8BD288731D8005C928F /* NFTBalanceController.swift */; };
+		6136D8C028873200005C928F /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8BF28873200005C928F /* PinterestLayout.swift */; };
+		6136D8C72887326C005C928F /* NFTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8C62887326C005C928F /* NFTCell.swift */; };
+		6136D8C928873278005C928F /* NFTCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8C828873277005C928F /* NFTCellModel.swift */; };
+		6136D8D0288801D3005C928F /* SendTokenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8CF288801D3005C928F /* SendTokenController.swift */; };
+		6136D8D3288801E5005C928F /* SendTokenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8D2288801E5005C928F /* SendTokenPresenter.swift */; };
+		6136D8D628887741005C928F /* NftDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8D528887741005C928F /* NftDataModel.swift */; };
+		6136D8D92888797E005C928F /* NFTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136D8D82888797E005C928F /* NFTModel.swift */; };
+		6136FE1E287977D700235D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136FE1D287977D700235D25 /* AppDelegate.swift */; };
+		6136FE20287977D700235D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136FE1F287977D700235D25 /* SceneDelegate.swift */; };
+		6136FE22287977D700235D25 /* CreateWalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136FE21287977D700235D25 /* CreateWalletController.swift */; };
+		6136FE25287977D700235D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6136FE23287977D700235D25 /* Main.storyboard */; };
+		6136FE27287977DA00235D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6136FE26287977DA00235D25 /* Assets.xcassets */; };
+		6136FE2A287977DA00235D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6136FE28287977DA00235D25 /* LaunchScreen.storyboard */; };
+		61385212287DE86100984496 /* СurrencyСonversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61385211287DE86100984496 /* СurrencyСonversion.swift */; };
+		614EB5B428893DE50049E2AB /* NFTDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614EB5B328893DE50049E2AB /* NFTDetailController.swift */; };
+		614EB5B628893DEF0049E2AB /* NFTDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614EB5B528893DEF0049E2AB /* NFTDetailPresenter.swift */; };
+		617DDEAA288D7AE800B65B15 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 617DDEA9288D7AE800B65B15 /* SnapKit */; };
+		6193332028797EF000C694DA /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193331F28797EF000C694DA /* URLs.swift */; };
+		619333342879870D00C694DA /* CreateWalletPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619333332879870D00C694DA /* CreateWalletPresenter.swift */; };
+		6193333A28798CEC00C694DA /* CreateWalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193333928798CEC00C694DA /* CreateWalletModel.swift */; };
+		6193333D2879916F00C694DA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193333C2879916F00C694DA /* Errors.swift */; };
+		61A5D44A287AC32500D89B19 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5D449287AC32500D89B19 /* StartViewController.swift */; };
+		61A5D44D287ACAE300D89B19 /* RestoreWalletByMnemonicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5D44C287ACAE300D89B19 /* RestoreWalletByMnemonicPresenter.swift */; };
+		61A5D44F287AD01A00D89B19 /* RestoreWalletByMnemonicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5D44E287AD01A00D89B19 /* RestoreWalletByMnemonicController.swift */; };
+		61A5D451287AD5DF00D89B19 /* RestoreWalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5D450287AD5DF00D89B19 /* RestoreWalletModel.swift */; };
+		61A98909287F3DEE00F11E2A /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = 61A98908287F3DEE00F11E2A /* Web3 */; };
+		61A9890B287F3DEE00F11E2A /* Web3ContractABI in Frameworks */ = {isa = PBXBuildFile; productRef = 61A9890A287F3DEE00F11E2A /* Web3ContractABI */; };
+		61A9890D287F3DEE00F11E2A /* Web3PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 61A9890C287F3DEE00F11E2A /* Web3PromiseKit */; };
+		61B75E1128894B6F008E51FD /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B75E1028894B6F008E51FD /* ProfileController.swift */; };
+		61B75E35288ABABF008E51FD /* RestoreWalletByKeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B75E34288ABABE008E51FD /* RestoreWalletByKeyController.swift */; };
+		61B75E39288AC14C008E51FD /* RestoreWalletByKeyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B75E38288AC14C008E51FD /* RestoreWalletByKeyPresenter.swift */; };
+		E3E4EC06E2EB5556034E283F /* Pods_HackathonProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304B3B6723CC618A024F8A49 /* Pods_HackathonProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		304B3B6723CC618A024F8A49 /* Pods_HackathonProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackathonProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611A510F2879D7C600AA6B77 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		611A51122879D7F900AA6B77 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		611A51142879D87300AA6B77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		611A51242879E87C00AA6B77 /* WalletDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDefaults.swift; sourceTree = "<group>"; };
+		6136D8892882B954005C928F /* ExportTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTypeModel.swift; sourceTree = "<group>"; };
+		6136D88F2882E3BB005C928F /* KeyStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorageManager.swift; sourceTree = "<group>"; };
+		6136D896288302FD005C928F /* MetadataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataModel.swift; sourceTree = "<group>"; };
+		6136D8A12885BCDB005C928F /* TokenDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDataModel.swift; sourceTree = "<group>"; };
+		6136D8A62885BECB005C928F /* TokenBalanceCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBalanceCellModel.swift; sourceTree = "<group>"; };
+		6136D8A92885C733005C928F /* TokenBalancePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBalancePresenter.swift; sourceTree = "<group>"; };
+		6136D8AB2885C752005C928F /* TokenBalanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBalanceController.swift; sourceTree = "<group>"; };
+		6136D8AE2885C806005C928F /* TokenBalanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenBalanceCell.swift; sourceTree = "<group>"; };
+		6136D8B12885CF7A005C928F /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		6136D8B42885E37B005C928F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6136D8BB288731CD005C928F /* NFTBalancePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTBalancePresenter.swift; sourceTree = "<group>"; };
+		6136D8BD288731D8005C928F /* NFTBalanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTBalanceController.swift; sourceTree = "<group>"; };
+		6136D8BF28873200005C928F /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		6136D8C62887326C005C928F /* NFTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCell.swift; sourceTree = "<group>"; };
+		6136D8C828873277005C928F /* NFTCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTCellModel.swift; sourceTree = "<group>"; };
+		6136D8CF288801D3005C928F /* SendTokenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTokenController.swift; sourceTree = "<group>"; };
+		6136D8D2288801E5005C928F /* SendTokenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTokenPresenter.swift; sourceTree = "<group>"; };
+		6136D8D528887741005C928F /* NftDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NftDataModel.swift; sourceTree = "<group>"; };
+		6136D8D82888797E005C928F /* NFTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTModel.swift; sourceTree = "<group>"; };
+		6136FE1A287977D700235D25 /* HackathonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6136FE1D287977D700235D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6136FE1F287977D700235D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6136FE21287977D700235D25 /* CreateWalletController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletController.swift; sourceTree = "<group>"; };
+		6136FE24287977D700235D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6136FE26287977DA00235D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6136FE29287977DA00235D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6136FE2B287977DA00235D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61385211287DE86100984496 /* СurrencyСonversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СurrencyСonversion.swift"; sourceTree = "<group>"; };
+		614EB5B328893DE50049E2AB /* NFTDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTDetailController.swift; sourceTree = "<group>"; };
+		614EB5B528893DEF0049E2AB /* NFTDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTDetailPresenter.swift; sourceTree = "<group>"; };
+		6193331F28797EF000C694DA /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		619333332879870D00C694DA /* CreateWalletPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletPresenter.swift; sourceTree = "<group>"; };
+		6193333928798CEC00C694DA /* CreateWalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletModel.swift; sourceTree = "<group>"; };
+		6193333C2879916F00C694DA /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		61A5D449287AC32500D89B19 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		61A5D44C287ACAE300D89B19 /* RestoreWalletByMnemonicPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreWalletByMnemonicPresenter.swift; sourceTree = "<group>"; };
+		61A5D44E287AD01A00D89B19 /* RestoreWalletByMnemonicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreWalletByMnemonicController.swift; sourceTree = "<group>"; };
+		61A5D450287AD5DF00D89B19 /* RestoreWalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreWalletModel.swift; sourceTree = "<group>"; };
+		61B75E1028894B6F008E51FD /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		61B75E34288ABABE008E51FD /* RestoreWalletByKeyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreWalletByKeyController.swift; sourceTree = "<group>"; };
+		61B75E38288AC14C008E51FD /* RestoreWalletByKeyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreWalletByKeyPresenter.swift; sourceTree = "<group>"; };
+		7B9F28D5CB1F5EF7CB438A94 /* Pods-HackathonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonProject.debug.xcconfig"; path = "Target Support Files/Pods-HackathonProject/Pods-HackathonProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B0B74546538A71D98C25B79C /* Pods-HackathonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackathonProject.release.xcconfig"; path = "Target Support Files/Pods-HackathonProject/Pods-HackathonProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6136FE17287977D700235D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A9890B287F3DEE00F11E2A /* Web3ContractABI in Frameworks */,
+				E3E4EC06E2EB5556034E283F /* Pods_HackathonProject.framework in Frameworks */,
+				61A9890D287F3DEE00F11E2A /* Web3PromiseKit in Frameworks */,
+				61A98909287F3DEE00F11E2A /* Web3 in Frameworks */,
+				617DDEAA288D7AE800B65B15 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611A51112879D7EB00AA6B77 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				611A510F2879D7C600AA6B77 /* Provider.swift */,
+				611A51122879D7F900AA6B77 /* HttpMethod.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		611A51162879DB6600AA6B77 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				611A51172879DB8E00AA6B77 /* Models */,
+				611A51112879D7EB00AA6B77 /* Provider */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		611A51172879DB8E00AA6B77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8A52885BD70005C928F /* NFT */,
+				6136D8A42885BD2D005C928F /* Token */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		611A511A2879DD6200AA6B77 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				61B75E0F28894B55008E51FD /* Profile */,
+				6136D8B32885E2F9005C928F /* TabBar */,
+				6136D8B92887319F005C928F /* NFT */,
+				6136D8A82885C71D005C928F /* Token */,
+				61A5D448287AC2EC00D89B19 /* Strart */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		611A51232879E86E00AA6B77 /* WalletDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				611A51242879E87C00AA6B77 /* WalletDefaults.swift */,
+			);
+			path = WalletDefaults;
+			sourceTree = "<group>";
+		};
+		6136D8882882AAF1005C928F /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				6136D88E2882E38A005C928F /* KeyStorageManager */,
+				611A51232879E86E00AA6B77 /* WalletDefaults */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		6136D88E2882E38A005C928F /* KeyStorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				6136D88F2882E3BB005C928F /* KeyStorageManager.swift */,
+			);
+			path = KeyStorageManager;
+			sourceTree = "<group>";
+		};
+		6136D8A32885BCFA005C928F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61A5D450287AD5DF00D89B19 /* RestoreWalletModel.swift */,
+				6193333928798CEC00C694DA /* CreateWalletModel.swift */,
+				6136D8892882B954005C928F /* ExportTypeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6136D8A42885BD2D005C928F /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8A12885BCDB005C928F /* TokenDataModel.swift */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		6136D8A52885BD70005C928F /* NFT */ = {
+			isa = PBXGroup;
+			children = (
+				6136D896288302FD005C928F /* MetadataModel.swift */,
+				6136D8D528887741005C928F /* NftDataModel.swift */,
+			);
+			path = NFT;
+			sourceTree = "<group>";
+		};
+		6136D8A82885C71D005C928F /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8CD288801AD005C928F /* TokenBalance */,
+				6136D8CC28880196005C928F /* Transaction */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		6136D8AD2885C7F1005C928F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8AE2885C806005C928F /* TokenBalanceCell.swift */,
+				6136D8A62885BECB005C928F /* TokenBalanceCellModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6136D8B02885CF67005C928F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				61385211287DE86100984496 /* СurrencyСonversion.swift */,
+				6136D8B12885CF7A005C928F /* Reusable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6136D8B32885E2F9005C928F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8B42885E37B005C928F /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		6136D8B92887319F005C928F /* NFT */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8D72888796E005C928F /* Models */,
+				614EB5B228893DD80049E2AB /* Transaction */,
+				6136D8BA288731B3005C928F /* Cells */,
+				6136D8BB288731CD005C928F /* NFTBalancePresenter.swift */,
+				6136D8BD288731D8005C928F /* NFTBalanceController.swift */,
+				6136D8BF28873200005C928F /* PinterestLayout.swift */,
+			);
+			path = NFT;
+			sourceTree = "<group>";
+		};
+		6136D8BA288731B3005C928F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8C62887326C005C928F /* NFTCell.swift */,
+				6136D8C828873277005C928F /* NFTCellModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6136D8CC28880196005C928F /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8CE288801BA005C928F /* SendToken */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		6136D8CD288801AD005C928F /* TokenBalance */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8AD2885C7F1005C928F /* Cells */,
+				6136D8AB2885C752005C928F /* TokenBalanceController.swift */,
+				6136D8A92885C733005C928F /* TokenBalancePresenter.swift */,
+			);
+			path = TokenBalance;
+			sourceTree = "<group>";
+		};
+		6136D8CE288801BA005C928F /* SendToken */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8CF288801D3005C928F /* SendTokenController.swift */,
+				6136D8D2288801E5005C928F /* SendTokenPresenter.swift */,
+			);
+			path = SendToken;
+			sourceTree = "<group>";
+		};
+		6136D8D72888796E005C928F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8D82888797E005C928F /* NFTModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6136FE11287977D700235D25 = {
+			isa = PBXGroup;
+			children = (
+				6136FE1C287977D700235D25 /* HackathonProject */,
+				6136FE1B287977D700235D25 /* Products */,
+				E0CE0690C3F0E83A29765A1A /* Pods */,
+				D407611C05370898E1CC772E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6136FE1B287977D700235D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6136FE1A287977D700235D25 /* HackathonProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6136FE1C287977D700235D25 /* HackathonProject */ = {
+			isa = PBXGroup;
+			children = (
+				6136D8B02885CF67005C928F /* Helper */,
+				6136D8882882AAF1005C928F /* UserDefaults */,
+				6193333B2879916100C694DA /* Utils */,
+				6193333E287996A100C694DA /* View */,
+				611A511A2879DD6200AA6B77 /* Modules */,
+				611A51162879DB6600AA6B77 /* Networking */,
+				6136FE1D287977D700235D25 /* AppDelegate.swift */,
+				6136FE1F287977D700235D25 /* SceneDelegate.swift */,
+				6136FE26287977DA00235D25 /* Assets.xcassets */,
+				6136FE28287977DA00235D25 /* LaunchScreen.storyboard */,
+				6136FE2B287977DA00235D25 /* Info.plist */,
+			);
+			path = HackathonProject;
+			sourceTree = "<group>";
+		};
+		614EB5B228893DD80049E2AB /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				614EB5B328893DE50049E2AB /* NFTDetailController.swift */,
+				614EB5B528893DEF0049E2AB /* NFTDetailPresenter.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		619333242879850D00C694DA /* CreateNewWallet */ = {
+			isa = PBXGroup;
+			children = (
+				6136FE21287977D700235D25 /* CreateWalletController.swift */,
+				619333332879870D00C694DA /* CreateWalletPresenter.swift */,
+			);
+			path = CreateNewWallet;
+			sourceTree = "<group>";
+		};
+		6193333B2879916100C694DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6193331F28797EF000C694DA /* URLs.swift */,
+				6193333C2879916F00C694DA /* Errors.swift */,
+				611A51142879D87300AA6B77 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6193333E287996A100C694DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6136FE23287977D700235D25 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61A5D448287AC2EC00D89B19 /* Strart */ = {
+			isa = PBXGroup;
+			children = (
+				61A5D449287AC32500D89B19 /* StartViewController.swift */,
+				6136D8A32885BCFA005C928F /* Models */,
+				619333242879850D00C694DA /* CreateNewWallet */,
+				61A5D44B287ACACD00D89B19 /* RestoreWallet */,
+			);
+			path = Strart;
+			sourceTree = "<group>";
+		};
+		61A5D44B287ACACD00D89B19 /* RestoreWallet */ = {
+			isa = PBXGroup;
+			children = (
+				61B75E37288AC12D008E51FD /* Mnemonic */,
+				61B75E36288AC121008E51FD /* PrivateKey */,
+			);
+			path = RestoreWallet;
+			sourceTree = "<group>";
+		};
+		61B75E0F28894B55008E51FD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				61B75E1028894B6F008E51FD /* ProfileController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		61B75E36288AC121008E51FD /* PrivateKey */ = {
+			isa = PBXGroup;
+			children = (
+				61B75E34288ABABE008E51FD /* RestoreWalletByKeyController.swift */,
+				61B75E38288AC14C008E51FD /* RestoreWalletByKeyPresenter.swift */,
+			);
+			path = PrivateKey;
+			sourceTree = "<group>";
+		};
+		61B75E37288AC12D008E51FD /* Mnemonic */ = {
+			isa = PBXGroup;
+			children = (
+				61A5D44E287AD01A00D89B19 /* RestoreWalletByMnemonicController.swift */,
+				61A5D44C287ACAE300D89B19 /* RestoreWalletByMnemonicPresenter.swift */,
+			);
+			path = Mnemonic;
+			sourceTree = "<group>";
+		};
+		D407611C05370898E1CC772E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304B3B6723CC618A024F8A49 /* Pods_HackathonProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0CE0690C3F0E83A29765A1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B9F28D5CB1F5EF7CB438A94 /* Pods-HackathonProject.debug.xcconfig */,
+				B0B74546538A71D98C25B79C /* Pods-HackathonProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6136FE19287977D700235D25 /* HackathonProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6136FE2E287977DA00235D25 /* Build configuration list for PBXNativeTarget "HackathonProject" */;
+			buildPhases = (
+				ACAA41003776937F07A88506 /* [CP] Check Pods Manifest.lock */,
+				6136FE16287977D700235D25 /* Sources */,
+				6136FE17287977D700235D25 /* Frameworks */,
+				6136FE18287977D700235D25 /* Resources */,
+				11FED1A938B1013B9AEE02EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackathonProject;
+			packageProductDependencies = (
+				61A98908287F3DEE00F11E2A /* Web3 */,
+				61A9890A287F3DEE00F11E2A /* Web3ContractABI */,
+				61A9890C287F3DEE00F11E2A /* Web3PromiseKit */,
+				617DDEA9288D7AE800B65B15 /* SnapKit */,
+			);
+			productName = HackathonProject;
+			productReference = 6136FE1A287977D700235D25 /* HackathonProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6136FE12287977D700235D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6136FE19287977D700235D25 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6136FE15287977D700235D25 /* Build configuration list for PBXProject "HackathonProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6136FE11287977D700235D25;
+			packageReferences = (
+				61A98907287F3DEE00F11E2A /* XCRemoteSwiftPackageReference "Web3" */,
+				617DDEA8288D7AE800B65B15 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 6136FE1B287977D700235D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6136FE19287977D700235D25 /* HackathonProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6136FE18287977D700235D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136FE2A287977DA00235D25 /* LaunchScreen.storyboard in Resources */,
+				6136FE27287977DA00235D25 /* Assets.xcassets in Resources */,
+				6136FE25287977D700235D25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FED1A938B1013B9AEE02EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackathonProject/Pods-HackathonProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackathonProject/Pods-HackathonProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackathonProject/Pods-HackathonProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAA41003776937F07A88506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackathonProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6136FE16287977D700235D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136D8C028873200005C928F /* PinterestLayout.swift in Sources */,
+				6136D8B22885CF7A005C928F /* Reusable.swift in Sources */,
+				6193333D2879916F00C694DA /* Errors.swift in Sources */,
+				61A5D451287AD5DF00D89B19 /* RestoreWalletModel.swift in Sources */,
+				61A5D44A287AC32500D89B19 /* StartViewController.swift in Sources */,
+				6136D8C928873278005C928F /* NFTCellModel.swift in Sources */,
+				61A5D44F287AD01A00D89B19 /* RestoreWalletByMnemonicController.swift in Sources */,
+				61B75E35288ABABF008E51FD /* RestoreWalletByKeyController.swift in Sources */,
+				6136D8C72887326C005C928F /* NFTCell.swift in Sources */,
+				614EB5B428893DE50049E2AB /* NFTDetailController.swift in Sources */,
+				61B75E39288AC14C008E51FD /* RestoreWalletByKeyPresenter.swift in Sources */,
+				611A51252879E87C00AA6B77 /* WalletDefaults.swift in Sources */,
+				6136D88A2882B954005C928F /* ExportTypeModel.swift in Sources */,
+				6193333A28798CEC00C694DA /* CreateWalletModel.swift in Sources */,
+				61A5D44D287ACAE300D89B19 /* RestoreWalletByMnemonicPresenter.swift in Sources */,
+				6136D8BE288731D8005C928F /* NFTBalanceController.swift in Sources */,
+				6136D8BC288731CD005C928F /* NFTBalancePresenter.swift in Sources */,
+				6136D8AF2885C806005C928F /* TokenBalanceCell.swift in Sources */,
+				6136D8AA2885C733005C928F /* TokenBalancePresenter.swift in Sources */,
+				6136D897288302FD005C928F /* MetadataModel.swift in Sources */,
+				61B75E1128894B6F008E51FD /* ProfileController.swift in Sources */,
+				619333342879870D00C694DA /* CreateWalletPresenter.swift in Sources */,
+				6136D8B52885E37B005C928F /* TabBarController.swift in Sources */,
+				611A51132879D7F900AA6B77 /* HttpMethod.swift in Sources */,
+				6136D8D0288801D3005C928F /* SendTokenController.swift in Sources */,
+				6193332028797EF000C694DA /* URLs.swift in Sources */,
+				61385212287DE86100984496 /* СurrencyСonversion.swift in Sources */,
+				6136D8A72885BECB005C928F /* TokenBalanceCellModel.swift in Sources */,
+				611A51102879D7C600AA6B77 /* Provider.swift in Sources */,
+				6136FE22287977D700235D25 /* CreateWalletController.swift in Sources */,
+				6136D8D3288801E5005C928F /* SendTokenPresenter.swift in Sources */,
+				6136D8902882E3BB005C928F /* KeyStorageManager.swift in Sources */,
+				6136FE1E287977D700235D25 /* AppDelegate.swift in Sources */,
+				6136D8D92888797E005C928F /* NFTModel.swift in Sources */,
+				6136D8AC2885C752005C928F /* TokenBalanceController.swift in Sources */,
+				6136D8D628887741005C928F /* NftDataModel.swift in Sources */,
+				614EB5B628893DEF0049E2AB /* NFTDetailPresenter.swift in Sources */,
+				6136FE20287977D700235D25 /* SceneDelegate.swift in Sources */,
+				611A51152879D87300AA6B77 /* Constants.swift in Sources */,
+				6136D8A22885BCDB005C928F /* TokenDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6136FE23287977D700235D25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6136FE24287977D700235D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6136FE28287977DA00235D25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6136FE29287977DA00235D25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6136FE2C287977DA00235D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6136FE2D287977DA00235D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6136FE2F287977DA00235D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9F28D5CB1F5EF7CB438A94 /* Pods-HackathonProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6DB52K4K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackathonProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kseniyaturovskaya.HackathonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6136FE30287977DA00235D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B74546538A71D98C25B79C /* Pods-HackathonProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6DB52K4K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackathonProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kseniyaturovskaya.HackathonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6136FE15287977D700235D25 /* Build configuration list for PBXProject "HackathonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6136FE2C287977DA00235D25 /* Debug */,
+				6136FE2D287977DA00235D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6136FE2E287977DA00235D25 /* Build configuration list for PBXNativeTarget "HackathonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6136FE2F287977DA00235D25 /* Debug */,
+				6136FE30287977DA00235D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		617DDEA8288D7AE800B65B15 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		61A98907287F3DEE00F11E2A /* XCRemoteSwiftPackageReference "Web3" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boilertalk/Web3.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		617DDEA9288D7AE800B65B15 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 617DDEA8288D7AE800B65B15 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		61A98908287F3DEE00F11E2A /* Web3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A98907287F3DEE00F11E2A /* XCRemoteSwiftPackageReference "Web3" */;
+			productName = Web3;
+		};
+		61A9890A287F3DEE00F11E2A /* Web3ContractABI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A98907287F3DEE00F11E2A /* XCRemoteSwiftPackageReference "Web3" */;
+			productName = Web3ContractABI;
+		};
+		61A9890C287F3DEE00F11E2A /* Web3PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61A98907287F3DEE00F11E2A /* XCRemoteSwiftPackageReference "Web3" */;
+			productName = Web3PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6136FE12287977D700235D25 /* Project object */;
+}
